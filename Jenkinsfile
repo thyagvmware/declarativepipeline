@@ -4,7 +4,7 @@ agent any
   stages{
     stage(checkout)
       steps{
-           echo this is a checkout stage..
+           echo 'this is a checkout stage..'
           }
       }
 }
