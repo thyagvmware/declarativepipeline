@@ -2,7 +2,7 @@ pipeline{
 agent any
 
   stages{
-    stage(checkout)
+    stage('checkout')
       steps{
            echo 'this is a checkout stage..'
           }
